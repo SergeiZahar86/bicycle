@@ -2,29 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="832b95fb-2aea-40d8-8fa0-9ae125a237df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/#Source/img/Icons/1926.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/img/Icons/bicycle_company.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/img/Icons/chain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/img/Icons/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/img/Icons/fork.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/img/Icons/frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/img/Icons/header_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/img/Icons/pedals.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/img/Icons/pinterest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/img/Icons/tvitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/img/Icons/tvitter2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/img/Icons/vintage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/img/Icons/y_e_b_o_logo_206.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/img/bg_main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/img/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/img/flex/check_icon_346.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/img/flex/image_126.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/img/flex/shape_9_345 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/img/flex/video_14.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/#Source/_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#Source/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#Source/js/vendors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#Source/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aod/aod/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/aod/aod/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +16,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,15 +39,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../RESTfull_API_Laravel" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\freelancer.bicycle\#Source\img\foto_low" />
+      <recent name="C:\OpenServer\domains\freelancer.bicycle\#Source\img\foto" />
       <recent name="C:\OpenServer\domains\freelancer.bicycle\#Source\img\Icons" />
       <recent name="C:\OpenServer\domains\freelancer.bicycle\#Source\img" />
     </key>
@@ -70,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619059458789</updated>
       <workItem from="1619059461173" duration="558000" />
-      <workItem from="1619079883806" duration="2169000" />
+      <workItem from="1619079883806" duration="5235000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1619060008468</created>
@@ -79,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619060008468</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1619082503146</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619082503146</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,10 +92,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2478" y="95" key="CommitChangelistDialog2" timestamp="1619060007682">
+    <state x="2478" y="95" key="CommitChangelistDialog2" timestamp="1619082502143">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2478" y="95" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619060007682" />
+    <state x="2478" y="95" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619082502143" />
     <state x="2729" y="421" key="Github.ShareDialog" timestamp="1619059974180">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -118,9 +120,13 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619060024002" />
-    <state x="2472" y="257" key="Vcs.Push.Dialog.v2" timestamp="1619060013286">
+    <state x="2381" y="168" key="SettingsEditor" timestamp="1619083261758">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2472" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619060013286" />
+    <state x="2381" y="168" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619083261758" />
+    <state x="2472" y="257" key="Vcs.Push.Dialog.v2" timestamp="1619082506749">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2472" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619082506749" />
   </component>
 </project>
