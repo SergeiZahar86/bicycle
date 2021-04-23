@@ -1,4 +1,15 @@
 
+
+$('.wrapper').addClass('loaded');
+
+$('.icon-menu').click(function(event) {
+	$(this).toggleClass('active');
+	$('.menu__body').toggleClass('active');
+	$('body').toggleClass('lock');
+});
+
+
+
 // применяется для фулскриновой заставки, начальной страницы, с картинкой (применяет дополнительный
 // стиль к ibg)
 function ibg(){

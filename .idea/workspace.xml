@@ -2,129 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="832b95fb-2aea-40d8-8fa0-9ae125a237df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/#Source/fonts/Lato-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/fonts/Lato-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/fonts/Lato-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/fonts/Lato-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/fonts/Lato-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/fonts/Lato-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/fonts/Lato-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/fonts/Lato-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/fonts/Lato-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/fonts/Lato-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/fonts/Lato-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/fonts/Lato-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/1926.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/1926.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/bicycle_company.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/bicycle_company.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/chain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/chain.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/facebook.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/fork.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/fork.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/frame.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/header_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/header_icon.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/pedals.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/pedals.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/pinterest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/pinterest.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/tvitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/tvitter.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/tvitter2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/tvitter2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/vintage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/vintage.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/y_e_b_o_logo_206.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/Icons/y_e_b_o_logo_206.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/bg_main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/bg_main.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_low/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_low/1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_low/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_low/2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_low/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_low/3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_low/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_low/4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_low/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_low/5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_low/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_low/6.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_low/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_low/7.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_top/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_top/1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_top/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_top/2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_top/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_top/3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_top/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_top/4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_top/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_top/5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_top/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_top/6.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_top/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/img/foto_top/7.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/js/main.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/js/vendors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/js/vendors.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#Source/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#Source/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/scss/fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#Source/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/scss/ui.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/scss/ui.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer.bicycle/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer.bicycle/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-Black.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-Black.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-BlackItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-BlackItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-BoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-BoldItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-Light.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-LightItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-LightItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-MediumItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-MediumItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-Thin.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-Thin.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-ThinItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/fonts/Roboto-ThinItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/img/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/img/bg.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/img/flex/check_icon_346.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/img/flex/check_icon_346.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/img/flex/image_126.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/img/flex/image_126.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/img/flex/shape_9_345 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/img/flex/shape_9_345 (1).webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/img/flex/video_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/img/flex/video_14.webp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/freelancer.bicycle/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer.bicycle/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer.bicycle/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer.bicycle/js/main.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1619059458789</updated>
       <workItem from="1619059461173" duration="558000" />
-      <workItem from="1619079883806" duration="9396000" />
+      <workItem from="1619079883806" duration="10114000" />
+      <workItem from="1619161332518" duration="1256000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1619060008468</created>
@@ -207,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619086087780</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1">
+      <created>1619091725862</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619091725862</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,10 +111,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2478" y="95" key="CommitChangelistDialog2" timestamp="1619086087058">
+    <state x="2478" y="95" key="CommitChangelistDialog2" timestamp="1619091724519">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2478" y="95" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619086087058" />
+    <state x="2478" y="95" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619091724519" />
     <state x="2729" y="421" key="Github.ShareDialog" timestamp="1619059974180">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -251,9 +143,9 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2381" y="168" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619083261758" />
-    <state x="2472" y="257" key="Vcs.Push.Dialog.v2" timestamp="1619086090445">
+    <state x="2472" y="257" key="Vcs.Push.Dialog.v2" timestamp="1619091732588">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2472" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619086090445" />
+    <state x="2472" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619091732588" />
   </component>
 </project>
