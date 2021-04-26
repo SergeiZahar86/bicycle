@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="832b95fb-2aea-40d8-8fa0-9ae125a237df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/#Source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aod/aod/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/aod/aod/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/freelancer.bicycle/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer.bicycle/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/freelancer.bicycle/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer.bicycle/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer.bicycle/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,6 +181,10 @@
     </state>
     <state x="2472" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619172457256" />
     <state x="486" y="211" key="Vcs.Push.Dialog.v2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619348566017" />
+    <state x="2683" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619429370581">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2683" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619429370581" />
     <state x="2225" y="44" width="1164" height="824" maximized="true" key="dock-window-1" timestamp="1619345198949">
       <screen x="1982" y="0" width="1858" height="1080" />
     </state>

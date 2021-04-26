@@ -17,6 +17,7 @@
   -o-transition: all $time ease $delay;
   transition: all $time ease $delay;
 }
+
 @mixin anim_cubic($time, $delay) {
   -webkit-transition: all $time cubic-bezier(0.68, -0.55, 0.265, 1.55) $delay;
   -moz-transition: all $time cubic-bezier(0.68, -0.55, 0.265, 1.55) $delay;
@@ -24,6 +25,7 @@
   -o-transition: all $time cubic-bezier(0.68, -0.55, 0.265, 1.55) $delay;
   transition: all $time cubic-bezier(0.68, -0.55, 0.265, 1.55) $delay;
 }
+
 @mixin rotate($deg) {
   -moz-transform: rotate($deg);
   -ms-transform: rotate($deg);
@@ -31,6 +33,7 @@
   -o-transform: rotate($deg);
   transform: rotate($deg);
 }
+
 @mixin scale($num) {
   -moz-transform: scale($num);
   -ms-transform: scale($num);
@@ -38,6 +41,7 @@
   -o-transform: scale($num);
   transform: scale($num);
 }
+
 @mixin skew($num) {
   -webkit-transform: skewX($num);
   -moz-transform: skewX($num);
@@ -45,6 +49,7 @@
   -o-transform: skewX($num);
   transform: skewX($num);
 }
+
 @mixin cnt($h) {
   display: flex;
   flex-direction: column;
@@ -53,9 +58,11 @@
   align-items: stretch;
   justify-content: center;
 }
+
 @mixin tr($x,$y,$z) {
   transform: translate3d($x, $y, $z);
 }
+
 ;
 @mixin flexbox() {
   display: -webkit-box;
@@ -65,10 +72,12 @@
   display: flex;
   font-size: 0;
 }
+
 @mixin flexboxinline() {
   display: -webkit-inline-flex;
   display: inline-flex;
 }
+
 @mixin flexorder($val) {
   -webkit-box-ordinal-group: $val;
   -moz-box-ordinal-group: $val;
@@ -76,6 +85,7 @@
   -webkit-order: $val;
   order: $val;
 }
+
 //</МИКСИНЫ>===============================================================================================
 
 
@@ -102,20 +112,25 @@ $colorFont: #4d4959;
   margin: 0;
   border: 0;
 }
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 :focus, :active {
   outline: none;
 }
+
 a:focus, a:active {
   outline: none;
 }
+
 nav, footer, header, aside {
   display: block;
 }
+
 html, body {
   height: 100%;
   width: 100%;
@@ -126,31 +141,40 @@ html, body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 input, button, textarea {
   font-family: inherit;
 }
+
 input::-ms-clear {
   display: none;
 }
+
 button {
   cursor: pointer;
 }
+
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
+
 a, a:visited {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: none;
 }
+
 ul li {
   list-style: none;
 }
+
 img {
   vertical-align: top;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit;
@@ -167,6 +191,7 @@ h1, h2, h3, h4, h5, h6 {
   &.loaded {
   }*/
 }
+
 // основная сетка ==============================================================================
 .container {
   max-width: $mw+px;
@@ -202,8 +227,10 @@ main.page {
   left: 0;
   @include flexbox();
   flex-direction: column;
+
   .main-screen {
     flex: 1 0 100%;
+
     .main-screen__bg {
       position: absolute;
       width: 100%;
@@ -212,10 +239,12 @@ main.page {
       left: 0;
     }
   }
+
   .content {
 
   }
 }
+
 // --------------------------------------------------------------------------------------------------------
 
 .generation {
@@ -227,17 +256,22 @@ main.page {
   @media (max-width: 600px) {
     padding: 30px 0;
   }
+
   .generation__block {
   }
 }
+
 //---------------------------------------------------------------------------------------------------------
 .block {
   text-align: center;
+
   .block__icon {
     margin: 0px 0px 30px 0px;
+
     img {
     }
   }
+
   .block__title {
     font-family: Lato;
     font-size: 18px;
@@ -248,16 +282,19 @@ main.page {
     letter-spacing: 0.2em;
     color: #353738;
   }
+
   .block__text {
     font-family: Lato;
     font-size: 18px;
     line-height: 34px;
     font-weight: 400;
     color: #848789;
-    block__text_j {
+
+    &_j {
       text-align: justify;
       font-size: 16px;
       line-height: 30px;
+
       &:after {
         content: '';
         display: block;
@@ -268,6 +305,7 @@ main.page {
       }
     }
   }
+
   @media (max-width: 1500px) {
     block__text {
       block__text_j {
@@ -278,28 +316,35 @@ main.page {
     }
   }
 }
+
 //---------------------------------------------------------------------------------------------------------
 
 .brands {
   &_rev {
     .brands__column {
       @include flexorder(1);
+
       &_b {
         @include flexorder(2);
       }
     }
   }
+
   .brands__row {
     @include flexbox();
+
     .brands__column {
       flex: 0 1 33.333%;
+
       &_b {
         flex: 0 1 66.667%;
       }
     }
+
     .brands__content {
       padding: 70px 65px 55px 65px;
       position: relative;
+
       &:after {
         content: '';
         position: absolute;
@@ -312,17 +357,22 @@ main.page {
         border-right: 10px solid transparent;
         border-top: 10px solid white;
       }
+
       .block__icon {
         img {
         }
       }
+
       .block__title {
       }
+
       .block__text.block__text_j {
       }
     }
+
     .brands__image {
       padding: 0px 0px 37.51% 0px;
+      //height: 200px;
       img {
       }
     }
@@ -340,9 +390,11 @@ main.page {
         &:nth-child(1) {
           @include flexorder(2);
         }
+
         &:nth-child(2) {
           @include flexorder(1);
         }
+
         &:nth-child(3) {
           @include flexorder(3);
         }
@@ -360,6 +412,7 @@ main.page {
     display: block;
     position: relative;
   }
+
   span {
     font-size: 14px;
     font-weight: 700;
@@ -383,9 +436,11 @@ main.page {
       opacity: 0;
       visibility: hidden;
     }
+
     img {
     }
   }
+
   span {
     &.item__image {
       position: absolute;
@@ -394,15 +449,18 @@ main.page {
       top: 0;
       left: 0;
     }
+
     img {
     }
   }
+
   &:hover {
     .item__logo {
       opacity: 1;
       visibility: visible;
     }
   }
+
   @media (max-width: 1100px) {
     height: auto;
     padding: 0px 0px 70% 0px;
@@ -410,6 +468,95 @@ main.page {
 }
 
 // ---------------------------------------------------------------------------------------------------------------
+.brands.brands_rev {
+  .brands__row {
+    .brands__column.brands__column_b {
+      a.brands__item.item {
+        span.item__logo {
+          img {
+          }
+        }
+
+        span.item__image.ibg {
+          img {
+          }
+        }
+      }
+    }
+
+    .brands__column {
+      .brands__content.block {
+        .block__icon {
+          img {
+          }
+        }
+
+        h2.block__title {
+        }
+
+        .block__text.block__text_j {
+        }
+      }
+
+      .brands__image.ibg {
+        img {
+        }
+      }
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------------------------------------------
+.slider {
+  background-color: #f7f7f7;
+  padding: 120px 0 60px 0;
+
+  @media (max-width: 1100px) {
+    padding: 80px 0 60px 0;
+  }
+  @media (max-width: 767px) {
+    padding: 50px 0 30px 0;
+    &__icon {
+      margin: 0px 0px 25px 0px;
+    }
+    &__title {
+      margin: 0px 0px 15px 0px;
+    }
+  }
+
+  .slider__body {
+    .slider__item {
+      text-align: center;
+
+      .slider__icon {
+        margin: 0px 0px 35px 0px;
+
+        img {
+        }
+      }
+
+      .slider__title {
+        color: #353738;
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0px 0px 20px 0px;
+
+        span {
+          font-weight: 300;
+          color: #848789;
+        }
+      }
+
+      .slider__text {
+        text-align: center;
+        color: #848789;
+        font-size: 24px;
+        font-style: italic;
+        line-height: 34px;
+      }
+    }
+  }
+}
 
 
 // подключение файлов ui стилей, форм и готовых классов
