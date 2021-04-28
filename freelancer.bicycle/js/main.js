@@ -12,7 +12,7 @@ $(document).ready(function (){
 	//SLIDERS
 	if($('.slider__body').length>0){
 		$('.slider__body').slick({
-			autoplay: true,
+			autoplay: false,
 			infinite: false,
 			dots: true,
 			arrows: true,
