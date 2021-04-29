@@ -335,6 +335,7 @@ main.page {
     }
   }
 }
+/*
 .brands__item {
   &.item {
     height   : 100%;
@@ -388,11 +389,12 @@ main.page {
     padding : 0px 0px 70% 0px;
   }
 }
+*/
 .item {
   height   : 100%;
   display  : block;
   position : relative;
-  .item__logo {
+  &__logo {
     position         : absolute;
     width            : 100%;
     height           : 100%;
@@ -415,7 +417,7 @@ main.page {
     text-transform : uppercase;
     color          : #fff;
   }
-  .item__image {
+  &__image {
     position : absolute;
     width    : 100%;
     height   : 100%;
@@ -481,15 +483,15 @@ main.page {
 }
 //----------------------------------------- shop ----------------------------------------------------------------
 .shop {
-  .shop__body {
+  &__body {
     @include flexbox();
-    .shop__column {
-      flex : 0 1 16.666%;
+  }
+  &__column {
+    flex : 0 1 16.666%;
+    &_b {
+      flex : 0 1 33.333%;
       .shop__block {
       }
-    }
-    .shop__column_b {
-      flex : 0 1 33.333%;
     }
   }
   @media (max-width : 1100px) {
@@ -515,10 +517,10 @@ main.page {
 }
 .block-shop {
   height : 100%;
-  .block-shop__row {
+  &__row {
     @include flexbox();
   }
-  .block-shop__column {
+  &__column {
     flex : 0 1 50%;
   }
   .block-shop__item {
@@ -528,9 +530,12 @@ main.page {
       padding : 0px 0px 100% 0px; ///////// на этих значениях строится отзывчивость картинок ///////////////////////
     }
     &_b {
-      padding : 0px 0px 200.5% 0px ///////// на этих значениях строится отзывчивость картинок ///////////////////////
+      padding : 0px 0px 200.5% 0px; ///////// на этих значениях строится отзывчивость картинок ///////////////////////
     }
   }
+  /*.block-shop__item..block-shop__item_b{
+    padding : 0px 0px 200.5% 0px;
+  }*/
 }
 // футер
 .shop__footer {
@@ -559,62 +564,62 @@ main.page {
     text-align : center;
   }
   .subscribe__logo {
-    margin: 0px 0px 39px 0px;
+    margin : 0px 0px 39px 0px;
   }
   .subscribe__label {
-    color: #848789;
-    font-size: 24px;
-    font-style: italic;
-    margin: 0px 0px 35px 0px;
+    color      : #848789;
+    font-size  : 24px;
+    font-style : italic;
+    margin     : 0px 0px 35px 0px;
   }
   .subscribe__form {
     @include flexbox();
   }
   .subscribe__input {
-    flex: 1 1 auto;
-    padding: 0px 8px 0px 0px;
+    flex    : 1 1 auto;
+    padding : 0px 8px 0px 0px;
     .input {
-      width: 100%;
-      height: 69px;
-      border: 1px solid #d3d7d9;
-      background-color: #ffffff;
-      padding: 0px 28px;
-      color: #929292;
-      font-size: 20px;
-      font-style: italic;
+      width            : 100%;
+      height           : 69px;
+      border           : 1px solid #d3d7d9;
+      background-color : #ffffff;
+      padding          : 0px 28px;
+      color            : #929292;
+      font-size        : 20px;
+      font-style       : italic;
       &.focus {
-        font-style: normal;
-        color: #333;
+        font-style : normal;
+        color      : #333;
       }
       &.err {
-        border: 1px solid red;
+        border : 1px solid red;
       }
     }
   }
   .subscribe__button {
-    flex: 0 0 126px;
+    flex : 0 0 126px;
   }
   .subscribe__btn {
-    width: 100%;
-    height: 69px;
-    line-height: 69px;
-    color: #fff;
-    font-size: 24px;
-    text-transform: uppercase;
-    font-weight: 300;
-    background-color: #64c29e;
+    width            : 100%;
+    height           : 69px;
+    line-height      : 69px;
+    color            : #fff;
+    font-size        : 24px;
+    text-transform   : uppercase;
+    font-weight      : 300;
+    background-color : #64c29e;
   }
-  @media (max-width: 750px) {
+  @media (max-width : 750px) {
     &__body {
-      padding: 50px 0;
+      padding : 50px 0;
     }
   }
-  @media (max-width: 500px) {
+  @media (max-width : 500px) {
     &__form {
-      display: block;
+      display : block;
     }
     &__input {
-      padding: 0px 0px 8px 0px;
+      padding : 0px 0px 8px 0px;
     }
   }
 }
