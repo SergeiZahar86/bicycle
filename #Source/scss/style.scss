@@ -1,167 +1,158 @@
 // миксин для подключения шрифтов
 @mixin font($font_name, $file_name, $weight, $style) {
   @font-face {
-    font-family: $font_name;
-    font-display: swap;
-    src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
-    font-weight: #{$weight};
-    font-style: #{$style};
+    font-family  : $font_name;
+    font-display : swap;
+    src          : url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
+    font-weight  : #{$weight};
+    font-style   : #{$style};
   }
 }
-
 //<МИКСИНЫ>===============================================================================================
 @mixin anim($time,$delay) {
-  -webkit-transition: all $time ease $delay;
-  -moz-transition: all $time ease $delay;
-  -ms-transition: all $time ease $delay;
-  -o-transition: all $time ease $delay;
-  transition: all $time ease $delay;
+  -webkit-transition : all $time ease $delay;
+  -moz-transition    : all $time ease $delay;
+  -ms-transition     : all $time ease $delay;
+  -o-transition      : all $time ease $delay;
+  transition         : all $time ease $delay;
 }
 @mixin anim_cubic($time, $delay) {
-  -webkit-transition: all $time cubic-bezier(0.68, -0.55, 0.265, 1.55) $delay;
-  -moz-transition: all $time cubic-bezier(0.68, -0.55, 0.265, 1.55) $delay;
-  -ms-transition: all $time cubic-bezier(0.68, -0.55, 0.265, 1.55) $delay;
-  -o-transition: all $time cubic-bezier(0.68, -0.55, 0.265, 1.55) $delay;
-  transition: all $time cubic-bezier(0.68, -0.55, 0.265, 1.55) $delay;
+  -webkit-transition : all $time cubic-bezier(0.68, -0.55, 0.265, 1.55) $delay;
+  -moz-transition    : all $time cubic-bezier(0.68, -0.55, 0.265, 1.55) $delay;
+  -ms-transition     : all $time cubic-bezier(0.68, -0.55, 0.265, 1.55) $delay;
+  -o-transition      : all $time cubic-bezier(0.68, -0.55, 0.265, 1.55) $delay;
+  transition         : all $time cubic-bezier(0.68, -0.55, 0.265, 1.55) $delay;
 }
 @mixin rotate($deg) {
-  -moz-transform: rotate($deg);
-  -ms-transform: rotate($deg);
-  -webkit-transform: rotate($deg);
-  -o-transform: rotate($deg);
-  transform: rotate($deg);
+  -moz-transform    : rotate($deg);
+  -ms-transform     : rotate($deg);
+  -webkit-transform : rotate($deg);
+  -o-transform      : rotate($deg);
+  transform         : rotate($deg);
 }
 @mixin scale($num) {
-  -moz-transform: scale($num);
-  -ms-transform: scale($num);
-  -webkit-transform: scale($num);
-  -o-transform: scale($num);
-  transform: scale($num);
+  -moz-transform    : scale($num);
+  -ms-transform     : scale($num);
+  -webkit-transform : scale($num);
+  -o-transform      : scale($num);
+  transform         : scale($num);
 }
 @mixin skew($num) {
-  -webkit-transform: skewX($num);
-  -moz-transform: skewX($num);
-  -ms-transform: skewX($num);
-  -o-transform: skewX($num);
-  transform: skewX($num);
+  -webkit-transform : skewX($num);
+  -moz-transform    : skewX($num);
+  -ms-transform     : skewX($num);
+  -o-transform      : skewX($num);
+  transform         : skewX($num);
 }
 @mixin cnt($h) {
-  display: flex;
-  flex-direction: column;
-  height: $h;
-  text-align: center;
-  align-items: stretch;
-  justify-content: center;
+  display         : flex;
+  flex-direction  : column;
+  height          : $h;
+  text-align      : center;
+  align-items     : stretch;
+  justify-content : center;
 }
 @mixin tr($x,$y,$z) {
-  transform: translate3d($x, $y, $z);
+  transform : translate3d($x, $y, $z);
 }
 ;
 @mixin flexbox() {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  font-size: 0;
+  display   : -webkit-box;
+  display   : -moz-box;
+  display   : -ms-flexbox;
+  display   : -webkit-flex;
+  display   : flex;
+  font-size : 0;
 }
 @mixin flexboxinline() {
-  display: -webkit-inline-flex;
-  display: inline-flex;
+  display : -webkit-inline-flex;
+  display : inline-flex;
 }
 @mixin flexorder($val) {
-  -webkit-box-ordinal-group: $val;
-  -moz-box-ordinal-group: $val;
-  -ms-flex-order: $val;
-  -webkit-order: $val;
-  order: $val;
+  -webkit-box-ordinal-group : $val;
+  -moz-box-ordinal-group    : $val;
+  -ms-flex-order            : $val;
+  -webkit-order             : $val;
+  order                     : $val;
 }
 //</МИКСИНЫ>===============================================================================================
-
-
 //   шрифты ==========================================================================================
 @import "fonts";
 // шрифты по-умолчанию ===================================================================================
-$fontfamily: "Lato";
-
-
+$fontfamily : "Lato";
 // переменные ===========================================================================================
-$minwidth: 320px;
-$mw: 1100;
-$md1: $mw+12;
-$md2: 992.98;
-$md3: 767.98;
-$md4: 479.98;
+$minwidth   : 320px;
+$mw         : 1100;
+$md1        : $mw+12;
+$md2        : 992.98;
+$md3        : 767.98;
+$md4        : 479.98;
 // цвет шрифта
-$colorFont: #4d4959;
-
-
+$colorFont  : #4d4959;
 // обнуление ==============================================================================================
 * {
-  padding: 0;
-  margin: 0;
-  border: 0;
+  padding : 0;
+  margin  : 0;
+  border  : 0;
 }
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  -moz-box-sizing    : border-box;
+  -webkit-box-sizing : border-box;
+  box-sizing         : border-box;
 }
 :focus, :active {
-  outline: none;
+  outline : none;
 }
 a:focus, a:active {
-  outline: none;
+  outline : none;
 }
 nav, footer, header, aside {
-  display: block;
+  display : block;
 }
 html, body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  font-size: 14px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  height                   : 100%;
+  width                    : 100%;
+  font-size                : 100%;
+  line-height              : 1;
+  font-size                : 14px;
+  -ms-text-size-adjust     : 100%;
+  -moz-text-size-adjust    : 100%;
+  -webkit-text-size-adjust : 100%;
 }
 input, button, textarea {
-  font-family: inherit;
+  font-family : inherit;
 }
 input::-ms-clear {
-  display: none;
+  display : none;
 }
 button {
-  cursor: pointer;
+  cursor : pointer;
 }
 button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
+  padding : 0;
+  border  : 0;
 }
 a, a:visited {
-  text-decoration: none;
+  text-decoration : none;
 }
 a:hover {
-  text-decoration: none;
+  text-decoration : none;
 }
 ul li {
-  list-style: none;
+  list-style : none;
 }
 img {
-  vertical-align: top;
+  vertical-align : top;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-size: inherit;
-  font-weight: inherit;
+  font-size   : inherit;
+  font-weight : inherit;
 }
-
 // =======================================================================================================
-
 // оболочка =========================================================================================
 .wrapper {
-  min-height: 100%;
-  overflow: hidden;
+  min-height : 100%;
+  overflow   : hidden;
   /*@include flexbox();
   width: 100%;
   &.loaded {
@@ -169,10 +160,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 // основная сетка ==============================================================================
 .container {
-  max-width: $mw+px;
-  padding: 0px 15px;
-  margin: 0 auto;
-  width: 100%;
+  max-width : $mw+px;
+  padding   : 0px 15px;
+  margin    : 0 auto;
+  width     : 100%;
   /*@media (max-width: $md1+px) {
     max-width: 970px;
   }
@@ -184,102 +175,94 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 10px;
   }*/
 }
-
 // ===============================================================================================
-
 // подключение файлов стилей страниц и элементов ======================================================
 @import "header";
 @import "footer";
-
-
 // основной блок =====================================================================================
-
 main.page {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
+  position       : absolute;
+  width          : 100%;
+  height         : 100%;
+  top            : 0;
+  left           : 0;
   @include flexbox();
-  flex-direction: column;
+  flex-direction : column;
   .main-screen {
-    flex: 1 0 100%;
+    flex : 1 0 100%;
     .main-screen__bg {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
+      position : absolute;
+      width    : 100%;
+      height   : 100%;
+      top      : 0;
+      left     : 0;
     }
   }
   .content {
-
   }
 }
-// --------------------------------------------------------------------------------------------------------
-
+// ------------------------------ начальный фулскрин --------------------------------------------------------------------------
 .generation {
-  padding: 120px 0;
-  background-color: #f7f7f7;
-  @media (max-width: 900px) {
-    padding: 80px 0;
+  padding          : 120px 0;
+  background-color : #f7f7f7;
+  @media (max-width : 900px) {
+    padding : 80px 0;
   }
-  @media (max-width: 600px) {
-    padding: 30px 0;
+  @media (max-width : 600px) {
+    padding : 30px 0;
   }
   .generation__block {
   }
 }
-//---------------------------------------------------------------------------------------------------------
+//-------------------------------- второй раздел -------------------------------------------------------------------------
 .block {
-  text-align: center;
+  text-align : center;
   .block__icon {
-    margin: 0px 0px 30px 0px;
+    margin : 0px 0px 30px 0px;
     img {
     }
   }
   .block__title {
-    font-family: Lato;
-    font-size: 18px;
-    line-height: 1.2;
-    font-weight: 700;
-    margin: 0px 0px 30px 0px;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    color: #353738;
+    font-family    : Lato;
+    font-size      : 18px;
+    line-height    : 1.2;
+    font-weight    : 700;
+    margin         : 0px 0px 30px 0px;
+    text-transform : uppercase;
+    letter-spacing : 0.2em;
+    color          : #353738;
   }
   .block__text {
-    font-family: Lato;
-    font-size: 18px;
-    line-height: 34px;
-    font-weight: 400;
-    color: #848789;
-    block__text_j {
-      text-align: justify;
-      font-size: 16px;
-      line-height: 30px;
+    font-family : Lato;
+    font-size   : 18px;
+    line-height : 34px;
+    font-weight : 400;
+    color       : #848789;
+    &_j {
+      text-align  : justify;
+      font-size   : 16px;
+      line-height : 30px;
       &:after {
-        content: '';
-        display: block;
-        margin: 35px auto 0px auto;
-        width: 50px;
-        height: 1px;
-        background-color: #ebebeb;
+        content          : '';
+        display          : block;
+        margin           : 35px auto 0px auto;
+        width            : 50px;
+        height           : 1px;
+        background-color : #ebebeb;
       }
     }
   }
-  @media (max-width: 1500px) {
+  @media (max-width : 1500px) {
     block__text {
       block__text_j {
         &:after {
-          margin: 15px auto 0px auto;
+          margin : 15px auto 0px auto;
         }
       }
     }
   }
 }
-//---------------------------------------------------------------------------------------------------------
-
+//------------------------------------ бренды с фото ---------------------------------------------------------------------
 .brands {
   &_rev {
     .brands__column {
@@ -292,25 +275,25 @@ main.page {
   .brands__row {
     @include flexbox();
     .brands__column {
-      flex: 0 1 33.333%;
+      flex : 0 1 33.333%;
       &_b {
-        flex: 0 1 66.667%;
+        flex : 0 1 66.667%;
       }
     }
     .brands__content {
-      padding: 70px 65px 55px 65px;
-      position: relative;
+      padding  : 70px 65px 55px 65px;
+      position : relative;
       &:after {
-        content: '';
-        position: absolute;
-        bottom: -10px;
-        left: 50%;
-        margin: 0px 0px 0px -10px;
-        width: 0;
-        height: 0;
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        border-top: 10px solid white;
+        content      : '';
+        position     : absolute;
+        bottom       : -10px;
+        left         : 50%;
+        margin       : 0px 0px 0px -10px;
+        width        : 0;
+        height       : 0;
+        border-left  : 10px solid transparent;
+        border-right : 10px solid transparent;
+        border-top   : 10px solid white;
       }
       .block__icon {
         img {
@@ -322,19 +305,18 @@ main.page {
       }
     }
     .brands__image {
-      padding: 0px 0px 37.51% 0px;
+      padding : 0px 0px 37.51% 0px;
+      //height: 200px;
       img {
       }
     }
-
   }
-
-  @media (max-width: 1500px) {
+  @media (max-width : 1500px) {
     &__content {
-      padding: 40px 35px 30px 35px;
+      padding : 40px 35px 30px 35px;
     }
   }
-  @media (max-width: 1100px) {
+  @media (max-width : 1100px) {
     &_last {
       .brands__column {
         &:nth-child(1) {
@@ -349,69 +331,300 @@ main.page {
       }
     }
     &__row {
-      flex-direction: column;
+      flex-direction : column;
     }
   }
 }
-
+/*
 .brands__item {
   &.item {
-    height: 100%;
-    display: block;
-    position: relative;
+    height   : 100%;
+    display  : block;
+    position : relative;
   }
-  span {
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 2.8px;
-    text-transform: uppercase;
-    color: #fff;
-
-    &.item__logo {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      @include flexbox();
-      flex-direction: column;
-      @include anim(0.3s, 0s);
-      justify-content: center;
-      align-items: center;
-      background-color: rgba(100, 194, 158, 0.5);
-      z-index: 2;
-      opacity: 0;
-      visibility: hidden;
+  &.item__logo {
+    position         : absolute;
+    width            : 100%;
+    height           : 100%;
+    top              : 0;
+    left             : 0;
+    @include flexbox();
+    flex-direction   : column;
+    @include anim(0.3s, 0s);
+    justify-content  : center;
+    align-items      : center;
+    background-color : rgba(100, 194, 158, 0.5);
+    z-index          : 2;
+    opacity          : 0;
+    visibility       : hidden;
+    span {
+      font-size      : 14px;
+      font-weight    : 700;
+      letter-spacing : 2.8px;
+      text-transform : uppercase;
+      color          : #fff;
     }
     img {
     }
   }
   span {
     &.item__image {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
+      position : absolute;
+      width    : 100%;
+      height   : 100%;
+      top      : 0;
+      left     : 0;
     }
     img {
     }
   }
   &:hover {
     .item__logo {
-      opacity: 1;
-      visibility: visible;
+      opacity    : 1;
+      visibility : visible;
     }
   }
-  @media (max-width: 1100px) {
-    height: auto;
-    padding: 0px 0px 70% 0px;
+  @media (max-width : 1100px) {
+    height  : auto;
+    padding : 0px 0px 70% 0px;
   }
 }
-
-// ---------------------------------------------------------------------------------------------------------------
-
-
+*/
+.item {
+  height   : 100%;
+  display  : block;
+  position : relative;
+  &__logo {
+    position         : absolute;
+    width            : 100%;
+    height           : 100%;
+    top              : 0;
+    left             : 0;
+    @include flexbox();
+    flex-direction   : column;
+    @include anim(0.3s, 0s);
+    justify-content  : center;
+    align-items      : center;
+    background-color : rgba(100, 194, 158, 0.5);
+    z-index          : 2;
+    opacity          : 0;
+    visibility       : hidden;
+  }
+  span {
+    font-size      : 14px;
+    font-weight    : 700;
+    letter-spacing : 2.8px;
+    text-transform : uppercase;
+    color          : #fff;
+  }
+  &__image {
+    position : absolute;
+    width    : 100%;
+    height   : 100%;
+    top      : 0;
+    left     : 0;
+    img {
+    }
+  }
+  &:hover {
+    .item__logo {
+      opacity    : 1;
+      visibility : visible;
+    }
+  }
+  @media (max-width : 1100px) {
+    height  : auto;
+    padding : 0px 0px 70% 0px;
+  }
+}
+// ----------------------------------------- слайдер ----------------------------------------------------------------------
+.slider {
+  background-color : #f7f7f7;
+  padding          : 120px 0 60px 0;
+  @media (max-width : 1100px) {
+    padding : 80px 0 60px 0;
+  }
+  @media (max-width : 767px) {
+    padding : 50px 0 30px 0;
+    &__icon {
+      margin : 0px 0px 25px 0px;
+    }
+    &__title {
+      margin : 0px 0px 15px 0px;
+    }
+  }
+  .slider__body {
+    .slider__item {
+      text-align : center;
+      .slider__icon {
+        margin : 0px 0px 35px 0px;
+        img {
+        }
+      }
+      .slider__title {
+        color       : #353738;
+        font-size   : 18px;
+        font-weight : 700;
+        margin      : 0px 0px 20px 0px;
+        span {
+          font-weight : 300;
+          color       : #848789;
+        }
+      }
+      .slider__text {
+        text-align  : center;
+        color       : #848789;
+        font-size   : 24px;
+        font-style  : italic;
+        line-height : 34px;
+      }
+    }
+  }
+}
+//----------------------------------------- shop ----------------------------------------------------------------
+.shop {
+  &__body {
+    @include flexbox();
+  }
+  &__column {
+    flex : 0 1 16.666%;
+    &_b {
+      flex : 0 1 33.333%;
+      .shop__block {
+      }
+    }
+  }
+  @media (max-width : 1100px) {
+    &__body {
+      flex-wrap : wrap;
+    }
+    &__column {
+      flex : 0 1 50%;
+      &:first-child {
+        flex : 1 1 100%;
+      }
+      &:last-child {
+        flex : 1 1 100%;
+      }
+    }
+    &__footer {
+      padding : 50px 0;
+    }
+    &__btn {
+      padding : 0px 30px;
+    }
+  }
+}
+.block-shop {
+  height : 100%;
+  &__row {
+    @include flexbox();
+  }
+  &__column {
+    flex : 0 1 50%;
+  }
+  .block-shop__item {
+    height  : auto;
+    padding : 0px 0px 50% 0px; ///////// на этих значениях строится отзывчивость картинок ///////////////////////
+    &_l {
+      padding : 0px 0px 100% 0px; ///////// на этих значениях строится отзывчивость картинок ///////////////////////
+    }
+    &_b {
+      padding : 0px 0px 200.5% 0px; ///////// на этих значениях строится отзывчивость картинок ///////////////////////
+    }
+  }
+  /*.block-shop__item..block-shop__item_b{
+    padding : 0px 0px 200.5% 0px;
+  }*/
+}
+// футер
+.shop__footer {
+  padding          : 75px 0;
+  text-align       : center;
+  background-color : #282f35;
+  .shop__btn {
+    display        : inline-block;
+    height         : 50px;
+    line-height    : 48px;
+    letter-spacing : 2.8px;
+    color          : #fff;
+    padding        : 0px 60px;
+    font-size      : 14px;
+    font-weight    : 700;
+    text-transform : uppercase;
+    border         : 1px solid rgba(255, 255, 255, 0.5);
+  }
+}
+//--------------------------------------------------------------------------------------------------------
+.subscribe {
+  .subscribe__body {
+    padding    : 110px 0;
+    max-width  : 534px;
+    margin     : 0px auto;
+    text-align : center;
+  }
+  .subscribe__logo {
+    margin : 0px 0px 39px 0px;
+  }
+  .subscribe__label {
+    color      : #848789;
+    font-size  : 24px;
+    font-style : italic;
+    margin     : 0px 0px 35px 0px;
+  }
+  .subscribe__form {
+    @include flexbox();
+  }
+  .subscribe__input {
+    flex    : 1 1 auto;
+    padding : 0px 8px 0px 0px;
+    .input {
+      width            : 100%;
+      height           : 69px;
+      border           : 1px solid #d3d7d9;
+      background-color : #ffffff;
+      padding          : 0px 28px;
+      color            : #929292;
+      font-size        : 20px;
+      font-style       : italic;
+      &.focus {
+        font-style : normal;
+        color      : #333;
+      }
+      &.err {
+        border : 1px solid red;
+      }
+    }
+  }
+  .subscribe__button {
+    flex : 0 0 126px;
+  }
+  .subscribe__btn {
+    width            : 100%;
+    height           : 69px;
+    line-height      : 69px;
+    color            : #fff;
+    font-size        : 24px;
+    text-transform   : uppercase;
+    font-weight      : 300;
+    background-color : #64c29e;
+  }
+  @media (max-width : 750px) {
+    &__body {
+      padding : 50px 0;
+    }
+  }
+  @media (max-width : 500px) {
+    &__form {
+      display : block;
+    }
+    &__input {
+      padding : 0px 0px 8px 0px;
+    }
+  }
+}
+//-----------------------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------------
 // подключение файлов ui стилей, форм и готовых классов
 @import "forms";
 @import "ui";
