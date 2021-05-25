@@ -175,7 +175,7 @@ $(document).ready(function ()
 		{
 			if (input.val() !== input.attr('data-value'))
 			{
-				var em = input.val().replace(" ", "");
+				const em = input.val().replace(" ", "");
 				input.val(em);
 			}
 			if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,8})+$/.test(input.val())) ||
@@ -276,7 +276,7 @@ $(document).ready(function ()
 		input.parent().find('.form__error').remove();
 		if (input.hasClass('email'))
 		{
-			var error = '';
+			let error = '';
 			if (input.val() === '' || input.val() === input.attr('data-value'))
 			{
 				error = input.data('error');

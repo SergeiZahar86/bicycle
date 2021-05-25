@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="832b95fb-2aea-40d8-8fa0-9ae125a237df" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/#Source/js/jQuery_3.6.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/js/jQuery_3.6.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelancer.bicycle/js/jQuery_3.6.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#Source/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer.bicycle/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer.bicycle/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/freelancer.bicycle/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer.bicycle/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/freelancer.bicycle/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer.bicycle/js/main.min.js" afterDir="false" />
     </list>
@@ -88,7 +83,7 @@
       <workItem from="1619770368596" duration="610000" />
       <workItem from="1620122204068" duration="1314000" />
       <workItem from="1620181228945" duration="1797000" />
-      <workItem from="1621913695403" duration="9164000" />
+      <workItem from="1621913695403" duration="12137000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1619060008468</created>
@@ -167,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619666333962</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1">
+      <created>1621933900807</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1621933900808</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,9 +181,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2478" y="95" key="CommitChangelistDialog2" timestamp="1619777190356">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="558" y="95" key="CommitChangelistDialog2" timestamp="1621933939939">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="558" y="95" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1621933939939" />
     <state x="2478" y="95" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619777190356" />
     <state x="490" y="0" key="CommitChangelistDialog2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619348560655" />
     <state x="2729" y="421" key="Github.ShareDialog" timestamp="1619059974180">
@@ -217,14 +220,16 @@
     </state>
     <state x="461" y="168" width="1382" height="713" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1621931170104" />
     <state x="2381" y="168" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619609174172" />
-    <state x="2472" y="257" key="Vcs.Push.Dialog.v2" timestamp="1619666344103">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1621933906318">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1621933906318" />
     <state x="2472" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619666344103" />
     <state x="486" y="211" key="Vcs.Push.Dialog.v2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619348566017" />
-    <state x="2683" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619610786719">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="763" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621933933285">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="763" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1621933933285" />
     <state x="2683" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619610786718" />
     <state x="0" y="0" width="1595" height="1009" key="dock-window-1" timestamp="1619525370829">
       <screen x="0" y="0" width="1920" height="1050" />
